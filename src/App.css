@@ -1,0 +1,30 @@
+#root {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: center;
+}
+.game{
+  display:flex;
+  flex-direction:column;
+  gap:10px;
+}
+.row {
+  display: flex;
+  gap: 10px;
+}
+.card {
+  background-color: #333;
+  width:10em;
+  height:10em;
+  line-height:10em;
+  font-weight:bold;
+  border-radius:15px;
+}
+.card:hover{
+  background-color: #444;
+}
+.sucess, .sucess:hover{
+  background-color: #484;
+  cursor: not-allowed;
+}
